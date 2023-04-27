@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Image Galllery</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="h-[100vh] flex flex-col items-center justify-center text-white text-center bg-black overflow-hidden">
+
+        <div class="image-container w-[250px] h-[300px] relative">
+            <span style="--i: 1" class="absolute ">
+                <img src="https://picsum.photos/id/237/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 2" class="absolute ">
+                <img src="https://picsum.photos/id/23/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 3" class="absolute ">
+                <img src="https://picsum.photos/id/2/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 4" class="absolute ">
+                <img src="https://picsum.photos/id/222/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 5" class="absolute ">
+                <img src="https://picsum.photos/id/200/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 6" class="absolute ">
+                <img src="https://picsum.photos/id/266/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 7" class="absolute ">
+                <img src="https://picsum.photos/id/55/300/200" class="absolute object-cover">
+            </span>
+            <span style="--i: 8" class="absolute ">
+                <img src="https://picsum.photos/id/450/300/200" class="absolute object-cover ">
+            </span>
+        </div>
+        <div class="flex relative w-[80%]">
+            <div id="prev" class="btn absolute">Prev</div>
+            <div id="next" class="btn absolute">Next</div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
